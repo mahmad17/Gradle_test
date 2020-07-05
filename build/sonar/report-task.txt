@@ -1,0 +1,6 @@
+projectKey=com.github.jitpack:Gradle_test
+serverUrl=http://10.54.30.199:9000
+serverVersion=6.7.6.38781
+dashboardUrl=http://10.54.30.199:9000/dashboard/index/com.github.jitpack:Gradle_test
+ceTaskId=AXMgcZO8GXZbcFlnGAnX
+ceTaskUrl=http://10.54.30.199:9000/api/ce/task?id=AXMgcZO8GXZbcFlnGAnX
