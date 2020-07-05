@@ -1,3 +1,7 @@
+plugins {
+	id "org.sonarqube" version "3.0"
+
+}
 apply plugin: 'java'
 apply plugin: 'maven'
 
@@ -43,6 +47,17 @@ install {
     }
   }
 }
+subprojects {
+    sonarqube {
+        properties {
+	    property "sonar.pullrequest.key", "ee23c863bb284510d9af46ad46c7e36766a1502b"
+       	    property "sonar.pullrequest.branch", "develop"
+	//    property " sonar.pullrequest.base", "master"
+            property "sonar.sources", "src"
+        }
+    }
+}
+
 
 wrapper {
     gradleVersion = "5.1.1"
