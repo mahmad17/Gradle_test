@@ -50,9 +50,10 @@ install {
 subprojects {
     sonarqube {
         properties {
-	    property "sonar.pullrequest.key", "ee23c863bb284510d9af46ad46c7e36766a1502b"
-       	    property "sonar.pullrequest.branch", "develop"
-	//    property " sonar.pullrequest.base", "master"
+	    property "sonar.pullrequest.key", "b3ed3a9850ac8507a3b69386a4bc8e9cea54fb0a"
+       	  //  property "sonar.pullrequest.branch", "develop"
+	//    property "sonar.pullrequest.base", "master"
+	      property "sonar.host.url",'http://localhost:9000' 
             property "sonar.sources", "src"
         }
     }
